@@ -15,6 +15,7 @@ npm i
 ```sh
 npm run lint
 ```
+aem up
 
 ## Local development
 
