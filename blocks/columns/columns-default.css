@@ -21,7 +21,6 @@
   max-height: 520px;
 }
 
-
 .columns > div > div:not(.columns-img-col) p:nth-of-type(1) {
   font-size: 24px; /* Increase font size for more impact */
   font-weight: 700; /* Bolder font for emphasis */
