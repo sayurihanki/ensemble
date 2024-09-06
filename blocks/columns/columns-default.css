@@ -20,20 +20,6 @@
   object-fit: cover;
   max-height: 520px;
 }
-
-/* Make the header bold */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-}
-
-/* Apply hover effect to column text */
-.column-text:hover {
-  background-color: var(--light-color); /* Change background color on hover */
-  color: var(--link-hover-color); /* Change text color on hover */
-  font-size: calc(var(--body-font-size-m) * 1.05); /* Slightly increase font size on hover */
-  transition: all 0.3s ease-in-out; /* Smooth transition */
-}
-
 @media (width >= 900px) {
   .columns > div {
     align-items: center;
