@@ -20,6 +20,25 @@
   object-fit: cover;
   max-height: 520px;
 }
+
+
+.columns > div > div:not(.columns-img-col) p:nth-of-type(1) {
+  font-size: 24px; /* Increase font size for more impact */
+  font-weight: 700; /* Bolder font for emphasis */
+  line-height: 28px; /* Adjust line-height for readability */
+  margin: 0;
+  color: #035fe6; /* Change the text color to a more vibrant blue */
+  text-transform: uppercase; /* Make the text all uppercase for a bold look */
+  letter-spacing: 1.5px; /* Add letter spacing to give it more space */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add shadow for extra pop */
+  transition: transform 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.columns > div > div:not(.columns-img-col) p:nth-of-type(1):hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  color: #ff4081; /* Change color to a more engaging pink when hovered */
+}
+
 @media (width >= 900px) {
   .columns > div {
     align-items: center;
